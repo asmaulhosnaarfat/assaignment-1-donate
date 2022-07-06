@@ -1,0 +1,35 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.whitecolor{
+    color:whitesmoke ;
+}
+
+#numan{
+    background-image:linear-gradient(orange);
+    color:black;
+}
+p{
+    text-align: center;
+    font-size:90%;
+}
+.button-link{
+    text-decoration: none;
+    background-image:linear-gradient(orange,tomato);
+    background-color: orange;
+    padding: 5px 10px;
+    color: white;
+    font-weight: 400;
+    border-radius: 5px;
+}
+p{
+    padding-bottom: 40px;
+
+}
+#nafi{ 
+    text-align: center;
+    background-image: url(donation13.jpg);
+    margin-left: 20%;
+    margin-right: 20%;
+    color:whitesmoke;
+}
