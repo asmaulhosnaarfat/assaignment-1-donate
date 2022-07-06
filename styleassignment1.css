@@ -1,35 +1,142 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
+   
 }
-.whitecolor{
-    color:whitesmoke ;
+section{
+    margin-top:-36px;
+    margin-bottom:10%;
+}
+hr{
+    margin-left:25%;
+    margin-right:25%;
+}
+input{
+    border: none;
+    text-align: center;
 }
 
-#numan{
-    background-image:linear-gradient(orange);
+.button-link {
+    text-decoration: none;
+    background-image: linear-gradient(hsl(342, 53%, 59%), red);
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    margin: auto;
+    
+}
+.donate-now{
+    color:white;
+    background-image: url(donation13.jpg);
+    height:500px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    text-align: center;
+    margin-top:-4%;
+    text-align: center;
+    
+
+}
+.text{
+    margin-bottom: 3%;
+    text-align: center;
+    margin-top: 100px;
+}
+h1{
+    font-size: 50px;
+    
+}
+.donate-today{
+    text-align:center ;
+}
+button{
+    margin-right: 2%;
+    box-shadow:10px 10px 10px #f5f3f3;
+    font:bold;
+    font-weight:400;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 5%;
+    border:none;
+}
+#color{
+    background-color: rgb(243, 232, 232);
+    color: red;
+    border-style:solid;
+}
+#flexible-container{
+    display: flex;
+
+}
+.half-width{
+    margin-left:5%;
+    margin-right:5%;
+    width: 40%;
+    border-radius: 10px;
+    padding-left:20px;
+    box-shadow:10px 10px 5px gray;
+    background-color: #c9f3fc9c;
+}
+.otherhalf-width{
+    background-color: bisque;
+}
+.shelter-color{
+    background-color:#a893a8de ;
+}
+    
+
+.contribution-area{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-right: 10px;
+   
+}
+.contribution-area img{
+    width: 25em;
+    height: 350px;
+}
+
+h2{
+    font-size: 30px;
+}
+#thirdpart{
+    margin-right: 50px;
+}
+#submit{
+    background-image:linear-gradient(red,tomato);
+    color: whitesmoke;
+    border: none;
+    padding:5px 26px ;
+    margin-left:-5px;
+}
+#email{
+    background-color: #dbd3d3;
+    color:black;
+    border: none;
+    padding: 5px 5px;
+}
+#form{
+    margin-top:2%;
+    background-color: #ff9494a4;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 65px 100px;
+}
+p{
     color:black;
 }
-p{
+footer{
+    background-color: black;
+    height:100px;
     text-align: center;
-    font-size:90%;
 }
-.button-link{
-    text-decoration: none;
-    background-image:linear-gradient(orange,tomato);
-    background-color: orange;
-    padding: 5px 10px;
+small{
     color: white;
-    font-weight: 400;
-    border-radius: 5px;
+    font-size: small;
 }
-p{
-    padding-bottom: 40px;
-
-}
-#nafi{ 
-    text-align: center;
-    background-image: url(donation13.jpg);
-    margin-left: 20%;
-    margin-right: 20%;
-    color:whitesmoke;
+h3{
+    color:rgb(223, 11, 99);
+    padding: 10px 10px;
 }
